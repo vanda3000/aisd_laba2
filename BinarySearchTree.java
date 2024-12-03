@@ -131,12 +131,12 @@ class BinarySearchTree {
 
         // Поиск узла
         int key = 5;
-        System.out.println("Search for " + key + ": " + (bst.search(key) ? "Found" : "Not Found"));
+        System.out.println("Найти " + key + ": " + (bst.search(key) ? "Найден" : "Такого ключа нет"));
 
         // Удаление узла
         int delkey = 9;
         bst.delete(delkey);
-        System.out.println("Inorder traversal after deleting "+delkey+":");
+        System.out.println("Упорядоченный массив после удаления "+delkey+":");
         bst.inorder();
         picTree_bst(bst);
     }
