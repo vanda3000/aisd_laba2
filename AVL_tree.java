@@ -195,8 +195,8 @@ public class AVL_tree {
 
         picTree_AVL(tree);
 
-        System.out.println("\nПоиск элемента 10: " + tree.search(10));
-        System.out.println("Поиск элемента 100: " + tree.search(100));
+        System.out.println("\nНайти 10: " + tree.search(10));
+        System.out.println("Найти 100: " + tree.search(100));
 
         tree.delete(8);
         System.out.println("\nДерево после удаления 8:");
