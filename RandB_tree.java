@@ -283,11 +283,8 @@ public class RandB_tree {
 
         picTree_RB(tree);
 
-        System.out.println("Дерево после вставки:");
-        tree.printTree();
-
-        System.out.println("\nПоиск элемента 1: " + tree.search(1));
-        System.out.println("Поиск элемента 100: " + tree.search(100));
+        System.out.println("\nНайти 1: " + tree.search(1));
+        System.out.println("Найти 100: " + tree.search(100));
 
         tree.delete(6);
         System.out.println("\nДерево после удаления 6:");
